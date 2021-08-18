@@ -6,12 +6,9 @@
 }
 
 html{
-    font-family:Product Sans;
+    font-family: 'Baloo 2', cursive;
 }
-@font-face {
-    font-family:Product Sans;
-    src: url(/Vans.com/assets/Fonts/Baloo2-Regular.ttf);
-}
+
 /*
 1.từ ngoài vào trong
 2.từ trên xuống duói
