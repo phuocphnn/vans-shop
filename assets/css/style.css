@@ -208,6 +208,7 @@ html{
 #content .product-thumbnail .product-box{
     float: left;
     width: 25%;
+
 }
 #content .classic{
     border: 1px solid #ddd;
@@ -215,7 +216,28 @@ html{
     padding: 5px;
     width: 250px;
     text-align: center;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    order:2;
 }
+.button-buy{
+    margin-top: -44px;
+    margin-bottom: 10px;
+    order:1;
+}
+.button-inside-buttonbuy{
+    border:none;
+    color:white;
+    background-color: rgb(204, 42, 42);
+    padding: 8px 36px;
+    position:relative;
+    cursor: pointer;
+}
+.button-inside-buttonbuy:hover{
+    background-color:rgb(36, 36, 213);
+}
+
 #content .classic:hover{
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     cursor: pointer;
@@ -224,6 +246,7 @@ html{
 #content .text-down{
     font-size: 13.5px;
     padding-top: 20px;
+    order:3;
 }
 #content .text-down:hover{
     color: red !important;
@@ -378,7 +401,6 @@ html{
     color:red;
     cursor: pointer;
 }
-
 
 #footer .img-info{
     margin-top: 44px;
