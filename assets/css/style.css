@@ -433,6 +433,122 @@ html{
     color:white;
     text-decoration: none;
 }
+
+.modal {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+.modal-header {
+    width: 366px;
+    height: 259px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24,26,27);
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: white;
+    cursor:context-menu;
+}
+.modal-header .ti-bag{
+    margin-right: 12px;
+    margin-bottom: 3px;
+}
+.modal-cover{
+    background-color: white;
+    position: relative;
+}
+.modal-cover .close {
+    position: absolute;
+    right: 0;
+    padding: 11px 14px 6px 13px;
+    cursor: pointer;
+    color: white;
+}
+.modal-cover .close:hover{
+    background-color:white;
+    color:black;
+}
+.quantity-cover,
+.email-cover {
+    margin: 16px 15px 5px 15px;
+    font-size: 18px;
+    cursor:context-menu;
+}
+.enter-quantity,
+.enter-email {
+    text-align: center;
+}
+.inside-enter-quantity,
+.inside-enter-email{
+    width: 332px;
+    height: 38px;
+    border: 1px solid #ccc!important;
+    outline: none;
+    padding: 0px 12px;
+}
+.pay-button {
+    text-align: center;
+}
+.click-to-pay {
+    height: 40px;
+    width: 330px;
+    border: none;
+    margin-top: 16px;
+    background-color: #201f1f;
+    font-size: 20px;
+    color: wheat;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+.click-to-pay:hover{
+    background-color:rgb(187, 186, 186);
+    color: black;
+}
+.modal .footer {
+    display: flex;
+    justify-content: space-between;
+}
+.click-help-link{
+    cursor: pointer;
+}
+.click-help-link:hover {
+    color:blue;
+
+}
+.help-link {
+    margin-left: 7px;
+    padding: 7px;
+    margin-top: 10px;
+}
+.close-down-button {
+    margin-left: 7px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.close-down-button:hover{
+    color:red;
+}
+.close-down-button .ti-close{
+    font-size: 10px;
+}
+.beside-img-modal{
+    display: flex;
+}
+.beside-img-modal .img-modal{
+    width: 366px;
+}
 li {
     line-height:33px;
     list-style-type: none;
